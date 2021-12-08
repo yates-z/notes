@@ -53,7 +53,7 @@ def move(strategy):
 一般写法需要向函数传递一个类型参数，具体的分支判断与执行逻辑都在
 函数中，不易扩展。
 策略模式只需要向Person中传递一个Strategy对象，而Strategy对象是可以
-自己创建的，方便扩展。
+自己创建的，不需要修改底层代码(依赖注入)，方便扩展。
 """
 if __name__ == "__main__":
     xiaoming = Person(CarStrategy())

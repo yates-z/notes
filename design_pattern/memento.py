@@ -40,6 +40,9 @@ class Originator:
 
 
 class CareTaker:
+    """
+    用于存储对象
+    """
 
     def __init__(self):
         self.memento_list = []
