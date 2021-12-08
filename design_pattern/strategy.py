@@ -30,6 +30,7 @@ class TrainStrategy(Strategy):
         print("乘坐了火车。")
 
 
+# context
 class Person:
 
     def __init__(self, strategy):
